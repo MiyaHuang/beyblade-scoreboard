@@ -340,7 +340,6 @@ const css = `
 
   /* 平板/手機:改成上下堆疊,VS 橫躺在兩張卡中間 */
   @media (max-width: 760px) {
-    .bx-board { grid-template-columns: 1fr; gap: 12px; }
     .bx-bottom { grid-template-columns: 1fr; }
     .bx-vs { padding: 4px 0; }
     .bx-finish { grid-template-columns: 1fr 1fr; }
